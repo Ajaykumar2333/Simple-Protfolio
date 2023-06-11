@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+box-sizing: border-box;
+}
+
+
+.navbar{
+
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    background-color: rgb(239, 141, 14);
+    height: 50px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 0px 40px;
+    position : fixed;
+    z-index: 1000;
+    background-color: #00539C;
+    
+
+}
+
+.content{
+    display: flex;
+    column-gap: 50px;
+    align-content:  space-between;
+}
+
+.Nav_items a:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.Logo img{
+
+    height:50px;
+}
+
+ .navbar .content{
+    color: white;
+}
+
+
+.Nav_items a{
+    font-weight: 700;
+    color : white;
+    text-decoration: none;
+
+}
+
+.container  {
+  position: relative;
+  top : 210px;
+}
+
+.home-container{
+    display: flex;
+    justify-content: center;
+
+}
+.home-container .img, .home-container .home-content{
+    width: 40%;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+    align-items: center;
+}
+
+
+.home-container .img img{
+
+    width: 30%;
+
+}
+
+
+.home-container span {
+    color: rgba(247, 7, 7, 0.959);
+}
+
+.home-content h1{
+    font-size: 50px;
+    line-height: 100px;
+
+    /* space between the lines */
+}
+
+.about-container{
+   display: flex;
+   width:-60px;
+ 
+   
+}
+
+.about-container p{
+    width: 700px;
+   
+}
+
+ 
+
+.about-container{
+    justify-content: space-around;
+
+    
+}
+
+
+
+.about-container .para{
+    position: relative;;
+    top: -110px;
+    left: -360px;
+   
+    text-align: center;
+}
+
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4% 0px;  
+  
+}
+.skills-items{
+    display: flex;
+     width: 100%;
+     justify-content: space-around;
+     padding: 3% 0px; 
+     flex-wrap: wrap;
+     gap: 50px 10px
+}
+
+.skills-items .item{
+    border: 1px solid #bed8ff;
+    padding: 10px 24px;
+    color : #385e96;
+    border-radius: 8px;
+    border-bottom: 5px solid  #4012c9;
+    width: 20%;
+    
+
+}
+
+
+ 
